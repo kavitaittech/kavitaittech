@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-                <meta charset="UTF-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>Document</title>
-</head>
+<html>
 <body>
-                
+
+<div class="wrapper">
+ <div class="container">
+<form action="welcome.php" method="post">
+Name: <input type="text" name="name"><br><br>
+E-mail: <input type="text" name="email"><br><br>
+<input type="submit">
+</form>
+ </div>
+</div>
 </body>
 </html>
